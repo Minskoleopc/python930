@@ -143,6 +143,133 @@ print(3 !=3 or 2 != 2)
 print(not 3 == 3)
 print(not 3 == 4)
 
+# conditional statements
+
+# one input and multiple outcomes 
+
+
+#numT  > 0 and numT <= 5  ======> 10 % discount 
+#numT  > 5 and numT <= 10 ======> 20 % discount
+#numT >  10               ======> 30 % discount 
+
+numT = 17
+
+# if  numT > 0 and numT <= 5:
+#     print("10 % discount")
+# if  numT > 5 and numT <= 10:
+#     print("20 % discount")
+# if numT > 10:
+#     print("30 % discount")
+
+
+# program 2
+    
+numT = -17
+if  numT > 0 and numT <= 5:
+    print("10 % discount")
+elif  numT > 5 and numT <= 10:
+    print("20 % discount")
+elif numT > 10:
+    print("30 % discount")
+else:
+    print("incorrect input")
+
+# program 3
+    
+marks  = 56
+
+# if(marks > 90):
+#     print("grade A")
+# if(marks >= 75):
+#     print("grade B")
+# if(marks >= 65):
+#     print("grade C")
+
+
+# if(marks > 90):
+#     print("grade A")
+# elif(marks >= 75):
+#     print("grade B")
+# elif(marks >= 65):
+#     print("grade C")
+# else:
+#     print("please try again")
+
+
+
+# program 4
+s = 10
+t = 50
+
+if s > t:
+    print("s is greater")
+else:
+    print("t is greater")
+
+
+# program 5
+    
+x1 = 100
+x2 = 500
+x3 = 4000
+
+if x1 > x2 and x1 > x3:
+    print("x1 is greater")
+elif x2 > x1 and x2 > x3:
+    print('x2 is greater')
+else:
+    print("x3 is greater")
+
+
+# program 6
+    
+q = 10
+r = 50
+
+if q > r:
+    print("q is greater")
+else:
+    print("r is greater")
+
+
+print("q is greater") if q > r else print("r is greater")
+age = 17
+e = "can drive" if age >= 18 else "cannot drive"
+print(e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
