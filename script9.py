@@ -70,7 +70,6 @@ print(listH)
 print(listN)
 
 
-
 city = ["pune","mumbai","nagpur"]
 city2 = city.copy()
 city[1] = "surat"
