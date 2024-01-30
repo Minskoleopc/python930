@@ -90,10 +90,10 @@ print(str3.isnumeric())  # True
 print(str4.isnumeric())  # True
 
 
-print(str1.isdigit())  # True
-print(str2.isdigit())  # False
-print(str3.isdigit())  # True
-print(str4.isdigit())  # True
+print(str1.isdigit())  
+print(str2.isdigit()) 
+print(str3.isdigit())  
+print(str4.isdigit())  
 
 
 # digit - 0,1,2,3,4,5,6,7,8,9
