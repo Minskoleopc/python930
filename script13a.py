@@ -98,3 +98,53 @@ print(str4.isdigit())
 
 # digit - 0,1,2,3,4,5,6,7,8,9
 # numeric 0-1 , romans , fractions
+
+
+info = "i am learning javascript"
+e = info.replace("javascript","python")
+print(e)
+
+
+email = "chinmaydeshpande@gmail.com"
+e2 = email.split('@')
+print(e2)
+
+#["chinmaydeshpande","gmail.com"]
+
+info2 = "I am learning javascript"
+#["I ","m le","rning j","v","script"]
+e3 = info2.split('a')
+print(e3)
+
+
+info3 = ["chinmay","shirish","deshpande"]
+e4 = "-".join(info3) 
+print(e4)
+
+
+first_name = "chandrapur"
+e5 = first_name.count('a')
+print(e5)
+
+city1= "mh-nagpur"
+city2 = "nagpur-mh"
+
+e6 = city1.removeprefix('mh-')
+print(e6)
+
+e7 = city2.removesuffix('-mh')
+print(e7)
+
+
+city4 = "Wardhamh"
+e8 = city4.istitle()
+print(e8)
+
+
+
+
+
+
+
+
+
